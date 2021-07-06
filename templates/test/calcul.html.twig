@@ -1,0 +1,25 @@
+
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Calcul{% endblock %}
+
+{% block body %}
+{# <h2>  Calcul  </h2> #}
+
+
+
+{# <h2>  {{op }}   </h2> #} 
+<h2>  5+10=15  </h2>
+
+  <h2>  {{a+b}}   </h2> #
+ <h2> Somme :  {{a}} + {{b}} = {{a+b}}  </h2> 
+ <h2> Soustraction :  {{a}} - {{b}} = {{a-b}}  </h2> 
+ <h2> Multiplication :  {{a}} * {{b}} = {{a*b}}  </h2> 
+ <h2> Division :  {{a}} / {{b}} = {{a/b}}  </h2> 
+  {#   <h2><?= $a?> + <?= b ?> =<?=$a+$b ?>>  </h2>    #} 
+
+{% endblock %}
+
+{% block piedDePage %} Ceci est le footer de ma page calcul{% endblock %}
+{# {% block test%} test {% endblock %} #}
