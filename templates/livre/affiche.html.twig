@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1>Titre du livre : {{livre.auteur}}</h1>
+        
+    <h2>Auteur : {{livre.titre}}</h2>
+
+    <a href="{{ path('home') }}" class="card-link">
+    <i class="fa fa-reply"></i>
+
+{% endblock %}
